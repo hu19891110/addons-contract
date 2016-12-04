@@ -1,7 +1,5 @@
 <?php
-namespace addons;
-
-use think\Request;
+namespace Qsnh\think\Addons;
 
 abstract class Addons
 {
@@ -31,8 +29,5 @@ abstract class Addons
 
     /** 升级方法 */
     public abstract function upgrade();
-
-    /** 插件配置方法 */
-    public abstract function config(Request $request);
 
 }
