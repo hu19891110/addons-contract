@@ -5,11 +5,6 @@ abstract class Addons
 {
 
     /**
-     * 插件需要的配置
-     */
-    protected $_config = [];
-
-    /**
      * 插件注册的业务钩子
      * @var array
      */
